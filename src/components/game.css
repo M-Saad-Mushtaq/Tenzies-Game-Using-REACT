@@ -1,0 +1,43 @@
+.game {
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+
+  height: 78vh;
+  width: 50vw;
+
+  border-radius: 20px;
+}
+
+.title {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.description {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.boxes-div {
+  margin-top: 6%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.roll {
+  margin-top: 7%;
+  width: 120px;
+  height: 60px;
+  background-color: #d629e3;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.roll:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.5);
+}

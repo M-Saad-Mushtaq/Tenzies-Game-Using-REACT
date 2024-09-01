@@ -1,0 +1,28 @@
+.numBox,
+.numBoxSelected {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  margin: 2%;
+  /* border-bottom: 5px solid;
+  border-right: 5px solid;
+  border-color: gray; */
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.numBox:hover,
+.numBoxSelected:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.numBoxSelected {
+  background-color: #74f274;
+}
+
+.boxNumber {
+  margin: 0;
+}
